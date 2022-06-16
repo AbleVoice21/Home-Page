@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:    monospace, cursive,  roboto, sans-serif, serif, ;
+
+}
+
+body {
+    background-color: white;
+    padding: 0 1% 0 1%;
+    font-family:    monospace, cursive,  roboto, sans-serif, serif, ;
+    
+
+}
+
+#nav-aa {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-header {
+    background-color: blue;
+}
+
+header {
+    background-color: darkblue;
+    padding-right: 2%;
+
+
+}
+
+ .able-logo {
+width: 5%;
+border-radius: 100%;
+margin: 2% 0 0 2%;
+
+
+         
+}
+
+.able-v {
+    font-weight: bold;
+}
+
+
+.logo {
+    width: 100%;
+    opacity: .7;
+    height: 600px;
+}
+
+.vis-logo{
+    width: 100%;
+    opacity: .7;
+    height: 400px;
+    padding: 3% 0 3% 0;
+}
+
+.vis-logo:hover{
+    opacity: .2;
+}
+
+.logo:hover {
+    opacity: .2;
+}
+
+input {
+    padding: 2%;
+    margin: 2%;
+    width: 50%;
+}
+
+button {
+    padding: 2%;
+    margin: 2%;
+}
+
+#marquee {
+    color: white;
+
+}
+
+#marquee2 {
+    color: gold;
+
+}
+
+
+.welcome-note {
+    padding: 3%;
+}
+
+p {
+    text-align: justify;
+}
+
+.join-us,
+.vis-sta {
+    text-align: center;
+}
+
+
+.below-welcome {
+    color: red;
+    width: 100%;
+
+}
+
+.card {
+
+    padding: 1%;
+    padding-left: 1%;
+}
+
+#cardd {
+    background-color: red;
+   
+}
+
+.support {
+    padding-left: 2% ;
+}
+.mis-vis-part {
+    border-radius: 5%;
+    padding: 2%;
+    height: 200px;
+}
+
+.mis-vis-part:hover {
+    opacity: .5;
+}
+
+
+
+h4 {
+    text-decoration: underline;
+}
+
+/* footer */
+
+li {
+    list-style: none;
+}
+
+footer {
+    background-color: rgb(4, 4, 43);
+    background-color: darkblue;
+    border-radius: 2%;
+    padding: 2%;
+}
+
+.notes {
+    color: rgb(9, 26, 58);
+    border-radius: 5%;
+}
+
+.ot {
+    color: red;
+}
+
+
+.copyright {
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.h3-foot {
+    color: white;
+}
+
+.goals-objs {
+    list-style: decimal;
+}
+
+.mission,
+.aboutus {
+    text-align: center;
+    text-decoration: underline;
+    color: darkblue;
+}
+
+.containerr {
+    position: relative;
+    text-align: center;
+    color: darkblue;
+    font-family: cursive;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.crl {
+
+    width: 100%;
+    padding: 2%;
+
+}
+
+.card {
+    background-color: rgb(229, 229, 252);
+}
+
+.excos {
+    text-align: center;
+    color: darkblue;
+    text-decoration: none;
+    text-decoration: wavy;
+
+}
+
+#next {
+    color: brown;
+}
+
+.carousel-control-prev {
+    color: brown;
+}
+
+.subscribe {
+
+    padding: 0 25% 0 25%;
+}
+
+.next-previous {
+    background-color: rgb(24, 24, 34);
+}
+
+
+/* text on image */
+
+/* Centered text */
+.containerr {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    transform: translate(-5%, -5%);
+    color: darkblue;
+
+}
+
+h6 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+a {
+    color: white;
+}
+
+/* Small Phones */
+
+@media screen and (max-width:720px) {
+
+
+
+    body {
+        font-size: 1rem;
+    }
+
+    .able-logo {
+        width: 15%;
+        border-radius: 100%;
+        margin: 2% 0 0 2%;
+        
+        
+                 
+        }
+}
+
+
+
+@media screen and (min-width:720px) {
+
+
+
+    body {
+        font-size: 1.5rem;
+    }
+    
+    .able-logo {
+        width: 15%;
+        border-radius: 100%;
+        margin: 2% 0 0 2%;
+        
+        
+                 
+        }
+}
